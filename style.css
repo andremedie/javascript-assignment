@@ -1,0 +1,33 @@
+header {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    background-color: #212121;
+    top: 0; right: 0; width: 100%;
+    
+}
+
+#menubar {
+    float: left;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  
+}
+
+#menubar2 {
+    float: right;
+    color: white;
+    padding: 10px;
+    
+}
+
+span {
+    color: white;
+    font-size: 30px;
+}
+
+body {
+    text-align: center;
+
+}
