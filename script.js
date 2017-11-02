@@ -44,47 +44,19 @@ function createUIFromLoadedProducts() {
     /* Check your console to see that the products are stored in the listOfProducts varible */
     console.log(listOfProducts);
     var header = document.querySelector("header");
-    header.innerHTML = '<a href="index.html" id="menubar">TechStore</a><span></span><a href="kundvagn.html" id="menubar2"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>';
+    header.innerHTML = '<a href="index.html" id="menubar">TechStore</a><a href="kundvagn.html" id="menubar2"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>';
    
-    var main = document.querySelector("#main");
-    main.innerHTML = 
-    console.log(main);
 
-    var iPhoneX = document.createElement ("titel")
-    iPhoneX.innertext = (listOfProducts[0].title)
-
-    main.appendChild(iPhoneX)
-
-    var iPhoneXinfo = document.createElement ("info")
-    iPhoneXinfo.innerText = (listOfProducts[0].description)
-
-    main.appendChild(iPhoneXinfo)
-
-    var img = document.createElement("img")
-    img.src = "assets/iPhoneX.png"
-
-    main.appendChild(img)
-
-    var iPhoneXpris = document.createElement("pris")
-    iPhoneXpris.innerText = (listOfProducts[0].price) + "kr";
-
-    main.appendChild(iPhoneXpris)
 
     var span = document.createElement("button");
-    span.innerHTML = '<i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i><h6>Lägg i kundvagnen<h6>';
+    span.innerHTML = '<i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i><h6>Under konstruktion - beräknas vara klar 2018<h6>';
     var body = document.getElementsByTagName("#main")[0];
     main.appendChild(span);
-    var count = 1;
-    var span = document.querySelector("span");
-    span.innerText = count;
-    console.log(span)
+   
             
-    function add() {
-        console.log("add");
-        count = count + 1;
-        span.innerText = count;
+
     }
-        }
+        
 
     
     ;
